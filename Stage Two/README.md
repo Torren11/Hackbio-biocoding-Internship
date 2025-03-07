@@ -16,7 +16,6 @@ The tasks are organized into separate sections, each focused on a different biol
 4. [Public Health: NHANES](#public-health-nhanes)
 5. [Requirements](#requirements)
 6. [Usage](#usage)
-7. [License](#license)
 
 ---
 
@@ -29,8 +28,6 @@ In this task, we are given a dataset related to the growth of different strains 
 - Generating scatter and box plots comparing the time to reach carrying capacity for the knockout and knock-in strains.
 - Performing a statistical analysis to determine if there is a significant difference in the time to reach carrying capacity.
 
-The task involves basic data processing, plotting, and statistical analysis using Python libraries such as `matplotlib`, `seaborn`, and `scipy`.
-
 ---
 
 ## Botany and Plant Science: Task Code 2.3
@@ -41,8 +38,6 @@ This task involves metabolic response analysis in engineered mutant plants and t
 - Generating a scatter plot of the ΔM for both wild-type and mutant plants, fitting a line with a y-intercept of 0 and a slope of 1.
 - Identifying metabolites with residuals outside of a given cutoff range and highlighting them in the plot.
 - Generating line plots for selected metabolites and analyzing their trends over time.
-
-The task requires fitting models, calculating residuals, and visualizing data using `matplotlib` and `seaborn`.
 
 ---
 
@@ -55,8 +50,6 @@ This task deals with understanding the impact of individual non-synonymous nonse
 - Analyzing the frequency of amino acid substitutions and visualizing them using bar plots and pie charts.
 - Investigating amino acids with the most functional and structural impact and providing conclusions based on the analysis.
 
-This task requires data manipulation with `pandas`, and visualizations using `matplotlib`.
-
 ---
 
 ## Public Health: NHANES
@@ -68,21 +61,14 @@ In this task, we process data from the National Health and Nutrition Examination
 - Calculate and visualize various statistical metrics, including mean, range, variance, and standard deviation for different health variables.
 - Conduct t-tests to analyze relationships between age, gender, BMI, diabetes, and alcohol consumption.
 
-This task involves basic data cleaning, statistical analysis, and visualization using Python libraries such as `pandas`, `scipy`, and `matplotlib`.
-
 ---
 
 ## Requirements
 
-- Python 3.7+
-- `pandas`
-- `matplotlib`
-- `seaborn`
-- `scipy`
-- `numpy`
+- R
+- `ggplot2`
+- `dyrl`
 
-You can install the required libraries using `pip`:
+You can install the required libraries from `Rstudio`
 
-```bash
-pip install pandas matplotlib seaborn scipy numpy
 
